@@ -1,0 +1,46 @@
+{
+  "name": "loopback-fetch-swagger",
+  "description": "Download schema file for swagger-js client",
+  "version": "0.1.0",
+  "homepage": "https://github.com/darknos/loopback-fetch-swagger",
+  "author": {
+    "name": "Sergey Nosenko",
+    "email": "darknos@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darknos/loopback-fetch-swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darknos/loopback-fetch-swagger/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/darknos/loopback-fetch-swagger/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/loopback-fetch-swagger",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "swagger-client": "^2.1.9",
+    "traverse": "^0.6.6"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "loopback-fetch-swagger": "bin/loopback-fetch-swagger.js"
+  }
+}
